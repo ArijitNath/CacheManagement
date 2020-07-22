@@ -15,4 +15,7 @@ public interface ErrorCodes {
 	
 	String JWT_INACTIVE_ERROR_CODE = "JWTERR_104";
 	String JWT_INACTIVE_ERROR_MESSAGE = "The JWT requested is inactive!";
+	
+	String JWT_INVALID_USER_ACCESS_CODE = "JWTERR_105";
+	String JWT_INVALID_USER_ACCESS_MESSAGE = "Invalid user accessing the cache.";
 }

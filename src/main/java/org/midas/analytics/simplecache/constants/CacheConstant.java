@@ -13,4 +13,7 @@ public interface CacheConstant {
 	int TIME_TO_LIVE_JWT = 1000 * 60 * 60 * 60;
 	
 	String KEYSPACE = "employee_analytics";
+	
+	String SHA_256 = "SHA-256";
+	String SALT = "SHA1PRNG";
 }
